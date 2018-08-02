@@ -36,6 +36,10 @@ final class SortUtils {
         return v.compareTo(w) < 0;
     }
 
+    static <T extends Comparable<T>> boolean greater(T v, T w) {
+        return v.compareTo(w) > 0;
+    }
+
 
     /**
      * Just print list

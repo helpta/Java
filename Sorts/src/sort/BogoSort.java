@@ -34,6 +34,7 @@ public class BogoSort implements SortAlgorithm {
         }
     }
 
+    @Override
     public <T extends Comparable<T>> T[] sort(T array[]) {
         while(!isSorted(array)){
             nextPermutation(array);
