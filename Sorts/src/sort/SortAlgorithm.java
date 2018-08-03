@@ -7,6 +7,8 @@ import java.util.List;
  * The common interface of most sorting algorithms
  *
  * @author Podshivalov Nikita (https://github.com/nikitap492)
+ *
+ * 可参考：http://www.cnblogs.com/hapjin/p/5517682.html
  **/
 public interface SortAlgorithm {
 
